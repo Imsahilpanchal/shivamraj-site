@@ -41,7 +41,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 button { font-family: var(--font-body); cursor: pointer; }
 h1, h2, h3 { margin: 0; }
 
-/* scroll offset so sticky nav never covers headings */
+
 section, .anchor { scroll-margin-top: 84px; }
 
 .container { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
