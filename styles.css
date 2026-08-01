@@ -494,7 +494,7 @@ section, .anchor { scroll-margin-top: 84px; }
 .contact-card:hover { border-color: var(--teal-light); box-shadow: var(--shadow); }
 .contact-icon { font-size: 26px; margin-bottom: 8px; }
 .contact-label { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
-.contact-val { font-size: 14.5px; font-weight: 600; }
+.contact-val { font-size: 13px; font-weight: 600; overflow-wrap: break-word; word-break: break-word;}
 .contact-val a { color: var(--teal); }
 
 footer {
@@ -550,4 +550,5 @@ footer {
 
 @media (max-width: 480px) {
   .floating-whatsapp { width: 50px; height: 50px; font-size: 24px; bottom: 14px; right: 14px; }
+  .floating-whatsapp svg { width: 26px; height: 26px; }
 }
